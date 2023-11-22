@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Poppins:ital,wght@0,100;0,400;1,100&display=swap');
+
+body{
+    text-align: center;
+    font-family: 'Roboto', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    color: black;
+}
+
+h1{
+    color: rgb(2, 96, 65);
+    margin: 50px auto;
+}
+
+hr{
+    width: 8%;
+    border: dashed rgb(88, 3, 95) 5px;
+    border-bottom: none;
+}
+
+.right-img , .left-img{
+    width: 25%;
+}
+
+.program{
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0 20%;
+}
+
+.right-img{
+float: left;
+}
+
+.left-img{
+float: right;
+}
+
+.top-container {
+    width: 500px;
+    margin: auto;
+}
+.top-cloud{
+    float: right;
+}
+
+
+.bottom-container{
+    background-color: rgb(186, 229, 186);
+    padding: 50px 0 20px 0;
+}
